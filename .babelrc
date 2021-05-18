@@ -1,0 +1,3 @@
+{
+    "plugins": ["@babel/plugin-proposal-class-properties"] // Laravel Mix will check if this is available and merge it with default env preset
+}
