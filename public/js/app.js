@@ -1834,10 +1834,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./resources/js/Person.js":
-/*!********************************!*\
-  !*** ./resources/js/Person.js ***!
-  \********************************/
+/***/ "./resources/js/TestClassPropsSupport.js":
+/*!***********************************************!*\
+  !*** ./resources/js/TestClassPropsSupport.js ***!
+  \***********************************************/
 /***/ (() => {
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -1845,13 +1845,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 // This is just a test file to confirm that the Babel plugin for transforming JS class properties works as expected
-var Person = function Person() {
-  _classCallCheck(this, Person);
+var TestClassPropsSupport = function TestClassPropsSupport() {
+  _classCallCheck(this, TestClassPropsSupport);
 
   _defineProperty(this, "foo", 'bar');
 };
 
-_defineProperty(Person, "baz", 'baz');
+_defineProperty(TestClassPropsSupport, "baz", 'baz');
 
 /***/ }),
 
@@ -68593,7 +68593,7 @@ if (false) {} else {
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
 /******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/Person.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/TestClassPropsSupport.js")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
